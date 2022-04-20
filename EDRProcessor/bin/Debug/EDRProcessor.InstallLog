@@ -1,0 +1,13 @@
+﻿Installing assembly 'C:\Users\Administrator\Desktop\EDRProcessor\EDRProcessor\bin\Debug\EDRProcessor.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Administrator\Desktop\EDRProcessor\EDRProcessor\bin\Debug\EDRProcessor.exe
+   logfile = C:\Users\Administrator\Desktop\EDRProcessor\EDRProcessor\bin\Debug\EDRProcessor.InstallLog
+Installing service EDRProcessor...
+Service EDRProcessor has been successfully installed.
+Creating EventLog source EDRProcessor in log Application...
+Committing assembly 'C:\Users\Administrator\Desktop\EDRProcessor\EDRProcessor\bin\Debug\EDRProcessor.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Administrator\Desktop\EDRProcessor\EDRProcessor\bin\Debug\EDRProcessor.exe
+   logfile = C:\Users\Administrator\Desktop\EDRProcessor\EDRProcessor\bin\Debug\EDRProcessor.InstallLog

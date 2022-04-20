@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\EDRProcessor\EDRProcessor\bin\Debug\EDRProcessor.exe
+C:\Users\Administrator\Desktop\EDRProcessor\EDRProcessor\bin\Debug\EDRProcessor.pdb
+C:\Users\Administrator\Desktop\EDRProcessor\EDRProcessor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\EDRProcessor\EDRProcessor\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\EDRProcessor\EDRProcessor\obj\Debug\EDRProcessor.EDRDIARY.resources
+C:\Users\Administrator\Desktop\EDRProcessor\EDRProcessor\obj\Debug\EDRProcessor.ProjectInstaller.resources
+C:\Users\Administrator\Desktop\EDRProcessor\EDRProcessor\obj\Debug\EDRProcessor.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\EDRProcessor\EDRProcessor\obj\Debug\EDRProcessor.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\EDRProcessor\EDRProcessor\obj\Debug\EDRProcessor.csproj.CopyComplete
+C:\Users\Administrator\Desktop\EDRProcessor\EDRProcessor\obj\Debug\EDRProcessor.exe
+C:\Users\Administrator\Desktop\EDRProcessor\EDRProcessor\obj\Debug\EDRProcessor.pdb
