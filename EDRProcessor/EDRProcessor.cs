@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.ServiceProcess;
+using System.Text;
 using System.Timers;
 
 namespace EDRProcessor
@@ -122,7 +123,7 @@ namespace EDRProcessor
             string event_log_file = file_path_generation(event_log_directory);
             string file_content = @"";
 
-            try { file_content = File.ReadAllText(file_path).Replace(old_char, new_char); }
+            try { file_content = File.ReadAllText(file_path, Encoding.UTF8).Replace(old_char, new_char); }
             catch (IOException exp) { report_generation("ERROR", "File deletion failed: " + exp.Message); }
 
             if (file_content != "")
@@ -167,10 +168,19 @@ namespace EDRProcessor
         }
         private void write_to_file(string content, string file_path)
         {
-            using (StreamWriter sw = File.AppendText(file_path))
+            FileStream fs = null;
+            try
             {
-                sw.WriteLine(content.ToLower());
-                sw.Close();
+                fs = new FileStream(file_path, FileMode.Append);
+                using (StreamWriter writer = new StreamWriter(fs, Encoding.UTF8))
+                {
+                    writer.Write(content.ToLower());
+                }
+            }
+            finally
+            {
+                if (fs != null)
+                    fs.Dispose();
             }
         }
         private string file_path_generation(string directory)
